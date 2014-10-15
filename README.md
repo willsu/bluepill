@@ -1,6 +1,10 @@
 # Bluepill
 Bluepill is a simple process monitoring tool written in Ruby. 
 
+## Fork Notes
+
+This fork exists to fix an issue with running bluepill with Ruby 1.9.3 and Rails 3.2. Because of our specific dependency requirements, Bluepill version 0.0.46 was the most recent version we could currently use. This fork has a very specific use case and it is not recommended for general use, or probably for anyone.
+
 ## Installation
 It&apos;s hosted on [gemcutter.org][gemcutter].
 
